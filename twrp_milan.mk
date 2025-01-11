@@ -25,5 +25,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="milan_g-user 12 S3RDES32.123-37-5-19 0959d release-keys"
+    TARGET_SCREEN_WIDTH := 1080
+    TARGET_SCREEN_HEIGHT := 2460
 
 BUILD_FINGERPRINT := motorola/milan_g/milan:12/S3RDES32.123-37-5-19/0959d:user/release-keys
